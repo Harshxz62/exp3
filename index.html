@@ -1,0 +1,291 @@
+<!doctype html>
+<html>
+    <head>
+
+        <title>DE LAB</title>
+        <meta http-equiv="content-type" content="text/html;charset=utf-8" />
+        <meta charset="UTF-8">
+  <meta name="description" content="EMF Generation">
+  <meta name="keywords" content="HTML,CSS,XML,JavaScript">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no, minimal-ui">
+  <link rel="stylesheet" type="text/css" href="mystyle.css">
+  <script src="graph.ob.js"></script>
+  <script src="graph_line_use.ob.js"></script>
+
+
+        <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=no"/>
+
+        <!--<link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">-->
+        <link href="//fonts.googleapis.com/css?family=Lato:400,700" rel="stylesheet">
+
+      
+        <link rel="stylesheet" href="demo2.css">
+
+    </head>
+
+<body data-demo-id="animation">
+    
+  <div id="wrapper" style="position:absolute; top:0px;width:1300px;height:720px;left:0px">
+<div class="dropdown" style="left:5px; top:2px;">
+    <button onclick="dropdown()" class="dropbtn">INSTRUCTIONS
+    </button>
+     <div id="myDropdown" class="dropdown-content">
+      <a href="#home">  
+                    <b>1) Select and Drag "<img src="littledot.png" width="20" height="20" >" For Generate Wire.</b><br/><br/>
+                    <b>2) Join The Wires To Perform Required Logic.</b><br/><br/>
+                    
+      </a>
+    </div>
+</div>
+
+  <div style="position:absolute; font-size:13px;background-color: #3385ff;top:59px;left:5px;width:410px; height:60px;font-weight: bold;">
+    <p style="text-align:center; color:white;font-family: Verdana"> 
+      <b>BCD to excess-3 code conversion and vice-versa.</b>
+    </p>
+  </div>
+
+        <div class="jtk-demo-main" >
+            <!-- demo -->
+            <div class="jtk-demo-canvas canvas-wide animation-demo jtk-surface jtk-surface-nopan" id="canvas">
+
+
+                <div class="littledot" id="cin"></br></br><a href="#" class="cmdLink detach" rel="cin"></a></div>
+
+                <div class="littledot" id="p1"></br></br><a href="#" class="cmdLink detach" rel="p1"></a></div>
+                <div class="littledot" id="p2"></br></br><a href="#" class="cmdLink detach" rel="p2"></a></div>
+                <div class="littledot" id="p3"></br></br><a href="#" class="cmdLink detach" rel="p3"></a></div>
+                <div class="littledot" id="p4"></br></br><a href="#" class="cmdLink detach" rel="p4"></a></div>
+                <div class="littledot" id="p5"></br></br><a href="#" class="cmdLink detach" rel="p5"></a></div>
+                <div class="littledot" id="p6"></br></br><a href="#" class="cmdLink detach" rel="p6"></a></div>
+                <div class="littledot" id="p7"></br></br><a href="#" class="cmdLink detach" rel="p7"></a></div>
+                <div class="littledot" id="p8"></br></br><a href="#" class="cmdLink detach" rel="p8"></a></div>
+                <div class="littledot" id="p9"></br></br><a href="#" class="cmdLink detach" rel="p9"></a></div>
+                <div class="littledot" id="p10"></br></br><a href="#" class="cmdLink detach" rel="p10"></a></div>
+                <div class="littledot" id="p11"></br></br><a href="#" class="cmdLink detach" rel="p11"></a></div>
+                <div class="littledot" id="p12"></br></br><a href="#" class="cmdLink detach" rel="p12"></a></div>
+                <div class="littledot" id="p13"></br></br><a href="#" class="cmdLink detach" rel="p13"></a></div>
+                <div class="littledot" id="p14"></br></br><a href="#" class="cmdLink detach" rel="p14"></a></div>
+
+                <div class="littledot" id="a4"></br></br><a href="#" class="cmdLink detach" rel="a4"></a></div>
+                <div class="littledot" id="s3"></br></br><a href="#" class="cmdLink detach" rel="s3"></a></div>
+                <div class="littledot" id="a3"></br></br><a href="#" class="cmdLink detach" rel="a3"></a></div>
+                <div class="littledot" id="b3"></br></br><a href="#" class="cmdLink detach" rel="b3"></a></div>
+                <div class="littledot" id="vcc"></br></br><a href="#" class="cmdLink detach" rel="vcc"></a></div>
+                <div class="littledot" id="s2"></br></br><a href="#" class="cmdLink detach" rel="s2"></a></div>
+                <div class="littledot" id="b2"></br></br><a href="#" class="cmdLink detach" rel="b2"></a></div>
+                <div class="littledot" id="a2"></br></br><a href="#" class="cmdLink detach" rel="a2"></a></div>
+                <div class="littledot" id="b4"></br></br><a href="#" class="cmdLink detach" rel="b4"></a></div>
+                <div class="littledot" id="s4"></br></br><a href="#" class="cmdLink detach" rel="s4"></a></div>
+                <div class="littledot" id="c4"></br></br><a href="#" class="cmdLink detach" rel="c4"></a></div>
+                <div class="littledot" id="c0"></br></br><a href="#" class="cmdLink detach" rel="c0"></a></div>
+                <div class="littledot" id="gnd"></br></br><a href="#" class="cmdLink detach" rel="gnd"></a></div>
+                <div class="littledot" id="b1"></br></br><a href="#" class="cmdLink detach" rel="b1"></a></div>
+                <div class="littledot" id="a1"></br></br><a href="#" class="cmdLink detach" rel="a1"></a></div>
+                <div class="littledot" id="s1"></br></br><a href="#" class="cmdLink detach" rel="s1"></a></div>
+
+
+
+            <!-- /demo -->
+            <!-- explanation -->
+           
+            <!-- /explanation -->
+        </div>
+            <div style= " position:absolute;left:900px;top:695px;">
+            <button style="background: #2eb82e !important;height:35px; width:75px;" id="check-button" >CHECK</button>
+            <input style="background: #2eb82e !important;height:35px; width:75px;" id="reset" type="reset" onclick="window.location.href = 'index.html';" value="Reset">
+        </div>
+           </div>
+            <div style="position:absolute;left:1060px;top:695px;">
+             <input style= "background: #2eb82e !important; height:35px; width:75px;" id = "button" type = "button" value = "PRINT" onclick="print()">
+            </div>
+           
+        </div>
+</div>
+
+    <div style="position:absolute;left:850px;top:220px;">
+        <p style="color:blue;font-size: 11px;" align="center"></p>
+          <img src="7483.png" width="300" height="400">
+    </div>
+    <div style="position:absolute;left:350px;top:220px;">
+      <p style="color:blue;font-size: 11px;" align="center"></p>
+        <img src="7486.png" width="300" height="400">
+    </div>
+
+</div>
+
+
+
+
+<form id="myForm" onsubmit="return validateForm()" method="post">
+  <div>
+      <table width="0%" border="0">
+          <tr style="position:absolute;left:60px;top:290px;">
+              <td>
+                  <input type = "text" style="width:100px; font-size:15pt; overflow:hidden;" size="5" min="0" maxlength="1" name="myinputE1" id="E1"/></input>
+                  <br>
+                  <br>
+                  <br>
+              </td>
+          </tr>
+          <tr style="position:absolute;left:60px;top:350px;">
+              <td>
+                  <input type = "text" style="width:100px; font-size:15pt; overflow:hidden;" size="5" min="0" maxlength="1" name="myinputE2" onkeyup="checkmyinputE2()" id="E2"/></input>
+                  <br>
+                  <br>
+                  <br>
+              </td>
+          </tr>
+          <tr style="position:absolute;left:60px;top:410px;">
+              <td>
+                  <input type = "text" style="width:100px; font-size:15pt; overflow:hidden;" size="5" min="0" maxlength="1" name="myinputE3" onkeyup="checkmyinputE3()" id="E3"/></input>
+              </td>
+          </tr>
+          <tr style="position:absolute;left:60px;top:470px;">
+            <td>
+                <input type = "text" style="width:100px; font-size:15pt; overflow:hidden;" size="5" min="0" maxlength="1" name="myinputE4" onkeyup="checkmyinputE4()" id="E4"/></input>
+            </td>
+         </tr>
+         <tr style="position:absolute;left:60px;top:520px;">
+            <td>
+              <input type="submit" value="Submit">
+            </td>
+         </tr>
+      </table>
+  </div>
+
+
+
+
+<!-- </br></br></br></br></br></br></br></br></br></br></br></br>
+<div id="tblwrap" style="position:absolute; border: 2px solid #3385ff; top:220px;width:400px;height:300px;left:1000px">
+    <div style="position:absolute; font-size:16px;background-color: #3385ff;  top:0px;left:0px; width:400px; height:50px;font-weight: bold;"><p style=" color:white"> 
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;TRUTH TABLE &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; 
+        <input style=" background: #27d447 !important;height:30px; width:100px" id = "pr" type = "button" value = " Print  " onclick="print()"></p>
+    </div>
+    <div id="table" style="background-color: linen;; position:absolute; top:50px;width:400px;height:250px;left:0px; overflow-y: auto;">
+        <table id="mytable" width="400" border="1" >
+            <tr>
+                <th width="15">Serial No.</th>
+                <th width="25">A</th>
+                <th width="25">D</th>
+                <th width="25">B</th>
+                <th width="15">Output</th>
+                <th width="25" id="R">Remarks</th>
+                <!-- <th>load(Watt)</th>-->
+            </tr>
+        </table>
+        <!-- <table id="mytable" border="1" >
+        </table> -->
+    </div>
+</div> -->
+</form>
+<br/>
+<br/>
+
+
+
+
+
+
+<script>
+  function dropdown() 
+  {
+      document.getElementById("myDropdown").classList.toggle("show");
+  }
+  
+  // Close the dropdown if the user clicks outside of it
+  window.onclick = function(event) {
+    if (!event.target.matches('.dropbtn')) {
+  
+      var dropdowns = document.getElementsByClassName("dropdown-content");
+      var i;
+      for (i = 0; i < dropdowns.length; i++) {
+        var openDropdown = dropdowns[i];
+        if (openDropdown.classList.contains('show')) {
+          openDropdown.classList.remove('show');
+        }
+      }
+    }
+  }
+  </script>
+  
+  <!-- <script>
+    document.getElementById("A").disabled = true;
+    document.getElementById("D").disabled = true;
+    document.getElementById("B").disabled = true;
+    document.getElementById("Z").disabled = true;
+    document.getElementById("add").disabled = true;
+    document.getElementById("rst").disabled = true;
+  </script> -->
+  
+
+  <script>
+    var n = 1;
+    function AddData(){  
+
+        var e1 = document.getElementById("E1").value;
+        var e2 = document.getElementById("E2").value;
+        var e3 = document.getElementById("E3").value;
+        var e4 = document.getElementById("E4").value;
+    
+        function validateForm() {
+          let x = document.forms["myForm"]["myinputE1"].value;
+          alert(x);
+          return false;
+       }
+}
+        // var table = document.getElementById("mytable");
+        // // Create an empty <tr> element and add it to the 1st position of the table:
+        // var row = table.insertRow(-1);
+        // // Insert new cells (<td> elements) at the 1st and 2nd position of the "new" <tr> element:
+        // var cell1 = row.insertCell(0);
+        // var cell2 = row.insertCell(1);
+        // var cell3 = row.insertCell(2);
+        // var cell4 = row.insertCell(3);
+        // var cell5 = row.insertCell(4);
+        // var cell6 = row.insertCell(5);
+
+        // cell1.innerHTML = n++;
+        // cell2.innerHTML = a;
+        // cell3.innerHTML = d;
+        // cell4.innerHTML = b;
+        // cell5.innerHTML = z;
+        // cell6.innerHTML = r;
+                  
+
+</script>
+
+
+<script>
+function dropdown() 
+{
+    document.getElementById("myDropdown").classList.toggle("show");
+}
+
+// Close the dropdown if the user clicks outside of it
+window.onclick = function(event) {
+  if (!event.target.matches('.dropbtn')) {
+
+    var dropdowns = document.getElementsByClassName("dropdown-content");
+    var i;
+    for (i = 0; i < dropdowns.length; i++) {
+      var openDropdown = dropdowns[i];
+      if (openDropdown.classList.contains('show')) {
+        openDropdown.classList.remove('show');
+      }
+    }
+  }
+}
+</script>
+
+
+        <!-- JS -->
+        <script src="jsplumb1.js"></script>
+        <!-- /JS -->
+        <!--  demo code -->
+        <script src="demo2.js"></script>
+
+
+
+    </body>
+</html>
